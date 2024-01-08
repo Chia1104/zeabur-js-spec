@@ -1,0 +1,15 @@
+{
+  "name": "zeabur-js-spec",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zeabur": "^0.0.1-alpha.2",
+    "zod": "^3.22.4"
+  }
+}
