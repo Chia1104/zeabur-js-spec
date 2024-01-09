@@ -1,7 +1,11 @@
-import ZeaburClient from "./ZeaburClient";
+import ZeaburClient from "./zeabur-client";
 
-export { default as ZeaburClient } from "./ZeaburClient";
+export { ZeaburClient };
 
-export const createClient = (apiKey: string): ZeaburClient => {
+export const createClient = (apiKey: string) => {
   return new ZeaburClient(apiKey);
 };
+
+export * from "./types";
+
+export { RequestError } from "./error";
