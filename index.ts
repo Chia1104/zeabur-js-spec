@@ -13,7 +13,7 @@ const deploy = () =>
     BUN_PROJECT_CODE,
     "hkg1",
     "bun-zeabur",
-    "bun-zeabur.zeabur.app"
+    "bun-zeabur"
   );
 
 deploy();
